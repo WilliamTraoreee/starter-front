@@ -1,0 +1,27 @@
+.container {
+  width: 1160px;
+  padding-left: space(3);
+  padding-right: space(3);
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (max-width: $xxl) {
+    width: $xl;
+  }
+
+  @media screen and (max-width: $xl) {
+    width: $l;
+  }
+
+  @media screen and (max-width: $l) {
+    width: $m;
+  }
+
+  @media screen and (max-width: $m) {
+    width: $s;
+  }
+
+  @media screen and (max-width: $s) {
+    width: $xs;
+  }
+}

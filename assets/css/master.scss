@@ -1,0 +1,19 @@
+// BASE 
+
+@import 'scss/base/reset';
+@import 'scss/base/fonts';
+@import 'scss/base/breakpoints';
+@import 'scss/base/colors';
+@import 'scss/base/mixins';
+@import 'scss/base/functions';
+@import 'scss/base/body';
+
+// COMPONENTS 
+
+@import 'scss/components/container';
+@import 'scss/components/buttons';
+@import 'scss/components/forms';
+
+// PAGES
+
+@import 'scss/pages/home';

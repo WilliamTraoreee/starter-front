@@ -1,0 +1,5 @@
+// SPACE 
+
+@function space($size) {
+  @return $size * 8px;
+}
